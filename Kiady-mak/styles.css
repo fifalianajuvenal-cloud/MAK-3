@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(36, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.black-bg {
+    background-color: #221f1f;
+}
+footer {
+    background-color: rgb(51, 49, 49);
+    font-size: 20px;
+    color: white;
+    height: 100px;
+    text-align: center;
+
+}
+.green-col {
+    color: darkgreen;
+}
+.black-bg1 {
+    background: #333;
+    height: 515px;
+}
+* a {
+    font-size: 20px;
+}
+.black-bg2 {
+    background: #333;
+}
