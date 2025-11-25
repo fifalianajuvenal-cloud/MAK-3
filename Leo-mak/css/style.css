@@ -2,20 +2,21 @@ body a{
     text-decoration: none;
     color: #715274;
 }
+.brown-col{
+    color:  #551E24;
+}
 body i{
     color:  #551E24;
 }
-#hr{
+body h2{
+    text-transform: uppercase;
+    margin: 0;
+}
+#hr{ 
     border: none;
     border-top: 3px solid #551E24;
 }
-body a:hover{
-    background: #551E24;
-    color: black;
-}
-.top-header{
-    /* box-shadow: 2px 2px 15px red; */
-}
+
 .w3-bar-item, .w3-button{
     text-transform: uppercase;
     border-right: 1px solid #551E24;
@@ -25,6 +26,28 @@ body a:hover{
     background:no-repeat center / cover url("../img/souriante-jeune-femme-d-affaires-tapant-sur-un-ordinateur-portable-au-bureau.jpg"),
     linear-gradient(to right, rgba(0, 0, 139, 0.349));
     background-blend-mode: darken;
-    padding: 180px 100px;
     height: 600px;
+}
+section{
+    padding: 50px;
+}
+.brown-bg{
+    background: #551E24;
+
+}
+.ligne{
+    width: 5%;
+    height: 5px;
+}
+.round{
+    width: 5px;
+    height: 5px;
+}
+#title{
+    font-size: 15px;
+}
+.ico{
+    width: 50px;
+    height: fit-content;
+    box-shadow: 2px 2px 5px #eee;
 }
