@@ -1,53 +1,98 @@
-body a{
+body a {
     text-decoration: none;
     color: #715274;
 }
-.brown-col{
-    color:  #551E24;
+
+.brown-col {
+    color: #551E24;
 }
-body i{
-    color:  #551E24;
+
+body i {
+    color: #551E24;
 }
-body h2{
+
+body h2,
+body ²hr {
     text-transform: uppercase;
     margin: 0;
 }
-#hr{ 
+
+#hr {
     border: none;
     border-top: 3px solid #551E24;
 }
 
-.w3-bar-item, .w3-button{
+.w3-bar-item,
+.w3-button {
     text-transform: uppercase;
     border-right: 1px solid #551E24;
     padding-block: 0;
 }
-.banner{
-    background:no-repeat center / cover url("../img/souriante-jeune-femme-d-affaires-tapant-sur-un-ordinateur-portable-au-bureau.jpg"),
-    linear-gradient(to right, rgba(0, 0, 139, 0.349));
+
+.banner {
+    background: no-repeat center / cover url("../img/souriante-jeune-femme-d-affaires-tapant-sur-un-ordinateur-portable-au-bureau.jpg"),
+        linear-gradient(to right, rgba(0, 0, 139, 0.349));
     background-blend-mode: darken;
     height: 600px;
 }
-section{
-    padding: 50px;
-}
-.brown-bg{
-    background: #551E24;
 
+section {
+    padding: 80px 30px;
 }
-.ligne{
+
+.brown-bg {
+    background: #551E24;
+}
+
+.indigo-col {
+    color: #111431;
+}
+
+.ligne {
     width: 5%;
     height: 5px;
 }
-.round{
+
+.round {
     width: 5px;
     height: 5px;
 }
-#title{
+
+#title {
     font-size: 15px;
 }
-.ico{
-    width: 50px;
+
+.ico {
+    padding: 25px;
+    box-shadow: 2px 2px 5px #ccc;
     height: fit-content;
-    box-shadow: 2px 2px 5px #eee;
+}
+
+.ligne1 {
+    height: 50%;
+    border: none;
+    border-right: 3px solid #111431;
+}
+
+.hr2 {
+    border: none;
+    border-top: 2px solid;
+}
+
+.darkorchid-bg {
+    background: #3F264D;
+}
+
+.exp {
+    background: no-repeat center / cover url("../img/equipe-souriante.jpg"),
+    linear-gradient(to right, #224554);
+    background-blend-mode: overlay;
+    height: 300px;
+}
+.ico2{
+    padding: 25px;
+    background: #ffffff63;
+}
+.para{
+    margin: 5px 0;
 }
