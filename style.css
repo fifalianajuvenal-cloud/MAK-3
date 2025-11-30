@@ -1,0 +1,44 @@
+.sect7 .w3-row #div2 #img7{
+    object-fit: cover;
+    object-position: center;
+}
+body h2{
+    color: #38628B;
+    font-weight: bold;
+}
+body h1{
+    color: #38628B;
+    font-weight: bold;
+}
+header #h{
+    background-color: #F2F2F2;
+}
+footer #foot{
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+footer #copy{
+    background-color: black;
+    color: rgba(198, 191, 191, 0.737);
+    padding: 20px;
+}
+body p{
+    color: #335474;
+}
+body h3{
+    color: #E77657;
+    font-weight: bolder;
+}
+header #h button{
+    color: #E77657;
+}
+footer #foot a{
+    color: #38628B;
+}
+footer #foot1 i{
+    color: #E77657;
+}
+.sect7 #div1 h2{
+    margin-left: 200px;
+}
+
